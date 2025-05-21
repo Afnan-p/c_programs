@@ -1,32 +1,33 @@
 /******************************************************************************
 
 Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
 
 int main()
 {
-    int roll_no,phy,chemistry,computer_application;
-    char name;
-    int total;
-    float percentage;
-     printf("Input the Name of the Student:\n");
-    scanf("%s",& name);
-    
-    printf("Roll number of student:\n");
-    scanf("%d",& roll_no);
-     printf("Input the marks of Physics, Chemistry and Computer Application:\n");
-    scanf("%d%d%d",&phy,&chemistry,&computer_application);
-    total=phy+chemistry+computer_application;
-    percentage=total/3;
-    printf("total : %d",total);
-    printf("percentage of total:%f",percentage);
-    
-    
+    int x=-10;
+    int y=20;
+    if(x>0 && y>0){
+            printf("first quadrant");
+
+    }
+    else if(x<0 && y>0){
+            printf("second quadrant");
+
+    }
+    else if(x<0 && y<0){
+        printf("third quadrant");
+        
+    }
+    else{
+      printf("forth quadrant");
+
+    }
 
     return 0;
 }
